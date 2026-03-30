@@ -1,0 +1,19 @@
+# O Projeto CasaSegura: Visão Geral e Expectativas do Negócio
+
+A CPI Corporation, uma empresa fabricante de produtos de consumo, identificou uma oportunidade de mercado em expansão para sistemas de gerenciamento doméstico. A ideia central, apresentada pela gerência de marketing, é criar uma linha de produtos que permita a proprietários de residências e pequenos empresários controlar suas instalações através de PCs, tablets ou smartphones. O hardware base fundamenta-se em sensores sem fio, aproximadamente do tamanho de uma caixa de fósforos, que utilizam o protocolo 802.11n para comunicação.
+
+## Funcionalidades Desejadas e Interação Remota
+
+O sistema deve integrar diversas funções, começando pela segurança domiciliar. Lisa, da equipe de marketing, enfatiza que o produto deve permitir que o usuário monitore sensores de invasão, incêndio, inundação e níveis de monóxido de carbono. Além disso, o sistema deve ser capaz de contatar automaticamente um órgão de vigilância ou o telefone celular do proprietário quando uma situação crítica for detectada.
+Um diferencial crítico, considerado o "charme" do produto para as campanhas de marketing, é o acesso via Internet. A visão é que o usuário, estando fora de casa, possa entrar em um site seguro para verificar o estado do alarme, armar ou desarmar o sistema e até reconfigurar zonas de segurança. Meredith, também do marketing, detalha que a função de vigilância deve permitir ao usuário visualizar imagens de câmeras instaladas na casa. Ela espera poder ver "miniaturas" de todas as câmeras simultaneamente e escolher uma para ampliar, controlando remotamente o deslocamento e a aproximação da lente (pan e zoom) através do navegador.
+Há também o desejo de incluir funções de administração doméstica. Isso envolveria o controle de dispositivos eletrônicos como luzes e eletrodomésticos. O usuário deve ser capaz de ajustar a temperatura do ar-condicionado enquanto volta para casa ou programar o sistema para acender e apagar luzes em intervalos aleatórios durante uma viagem para simular presença humana.
+
+## Aspectos de Interface e Usabilidade
+
+Para a configuração inicial, o sistema deve oferecer uma ferramenta que permita ao usuário (ou a um administrador) desenhar a planta da casa de forma intuitiva. Nessa interface, ícones representando paredes, janelas e portas seriam "esticados" e posicionados sobre uma grade. Sensores e câmeras seriam então arrastados e soltos sobre essa planta para definir sua localização física no ambiente. Vinod e Jamie, da equipe de engenharia, ressaltam que a interface precisa ser consistente e simples o suficiente para que o proprietário não precise ler extensos manuais para operá-la.
+
+## Preocupações Técnicas e Restrições
+
+Embora o hardware seja considerado de baixo custo e facilmente encontrado no mercado, Lee Warren alerta que o software é o grande desafio. A equipe de engenharia está preocupada com a responsabilidade jurídica e técnica de garantir que o sistema seja invulnerável a intrusos que tentem desarmá-lo via Internet. Doug Miller insiste que o acesso remoto exige um site totalmente seguro e criptografado.
+Quanto ao desempenho, o sistema deve ser responsivo: a ativação de um sensor deve ser reconhecida em menos de um segundo, e o sistema deve implementar uma priorização para os eventos detectados. Em dispositivos móveis, a equipe precisa equilibrar o poder computacional com a vida útil da bateria, garantindo que o aplicativo seja eficiente em termos de energia. Além disso, espera-se que o sistema suporte o acesso simultâneo de múltiplos membros da família, possivelmente com diferentes níveis de permissão (ex: nem todos podem reconfigurar o sistema).
+Por fim, a disponibilidade é vital: o sistema de monitoramento de sensores deve operar ininterruptamente, e falhas de comunicação ou perda de energia devem ser detectadas e reportadas imediatamente, com o sistema comutando para uma bateria de reserva quando necessário.
